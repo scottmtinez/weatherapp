@@ -1,0 +1,118 @@
+.body{
+    background-color: lightblue;
+    background-position: center;
+}
+
+.main-container{
+    width: 300px;
+    height: 300px;
+    border: solid black 1px;
+    margin: auto;
+    margin-top: 15%; 
+    border-radius: 10%;
+    background-color: rgb(183, 181, 181);
+}
+
+.searchbar-container{
+    padding-top: 5px;
+    padding-left: 60px;
+}
+
+.searchbar{
+    color: black;
+    background-color: transparent;
+    border: solid 1px black;
+    display: inline-flex;
+    border-radius: 10px;
+}
+
+.searchbar::placeholder{
+    color: black;
+}
+
+.searchbar:hover{
+    background-color: lightgray;
+}
+
+.sbutton{
+    background-color: transparent;
+    border: solid 1px black;
+    border-radius: 100%;
+    margin-top: 5px;
+    margin-left: 255px;
+    display: inline-block;
+}
+
+.sbutton:hover{
+    border: solid 2px lightslategray;
+}
+
+#sbutton-style{
+    color: white;
+}
+
+#sbutton-style:hover{
+    color: lightslategray;
+}
+
+#sbutton-style:active{
+    color: black;
+    width: 70px;
+    height: 74px;
+}
+
+.searchButton{
+    display: none;
+}
+
+.loc{
+    padding-top: 35px;
+    color: white;
+}
+
+.show-loc{
+    padding-top: 1px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.temp{
+    color: darkblue;
+}
+
+.show-temp{
+    font-size: 45px;
+    text-align: center;
+}
+
+.show-alert{
+    text-align: center;
+    font-size: 15px;
+    color:darkred
+}
+
+.searchButton{
+    background-color: darkgray;
+    display: inline-flex;
+    margin-right: -10px;
+    position: absolute;
+    border: solid black 1px;
+    border-radius: 10px;
+}
+
+.searchButton:active{
+    background-color: black;
+    width: 7px;
+    height: 30px;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.weatherAPIfooter{
+    text-align: center;
+    color:white
+}
